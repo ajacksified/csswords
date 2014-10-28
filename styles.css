@@ -17,10 +17,13 @@ li {
 
 .name {
   padding: 2em 0;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .hex {
-  float: right;
+  display: block;
+  text-align: right;
 }
 
 ul {
