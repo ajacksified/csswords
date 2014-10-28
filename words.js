@@ -109,7 +109,6 @@ var colors = [
   "#E7A",
   "#FAD",
   "#FAE",
-  "#FA6",
   "#FA7",
   "#FED",
   "#FEE",
