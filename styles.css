@@ -18,6 +18,7 @@ li {
   color: #fff;
   padding: 4em 1em;
   margin: 0;
+  border: solid 1px #fff;
   -moz-column-break-inside: avoid;
   -webkit-column-break-inside: avoid;
   column-break-inside: avoid;
@@ -32,6 +33,11 @@ li {
 .hex {
   display: block;
   text-align: right;
+  color: rgba(255,255,255,.75);
+}
+
+li:hover .hex {
+  color: rgba(255,255,255,1);
 }
 
 ul {
@@ -40,42 +46,33 @@ ul {
   list-style: none;
 
   -moz-column-count: 6;
-  -moz-column-gap: 20px;
+  -moz-column-gap: 0px;
   -webkit-column-count: 6;
-  -webkit-column-gap: 20px;
+  -webkit-column-gap: 0px;
   column-count: 6;
-  column-gap: 20px;
+  column-gap: 0px;
 }
 
 @media (max-width: 1200px) {
   ul {
     -moz-column-count: 4;
-    -moz-column-gap: 15px;
     -webkit-column-count: 4;
-    -webkit-column-gap: 15px;
     column-count: 4;
-    column-gap: 15px;
   }
 }
 
 @media (max-width: 780px) {
   ul {
     -moz-column-count: 3;
-    -moz-column-gap: 12px;
     -webkit-column-count: 3;
-    -webkit-column-gap: 12px;
     column-count: 3;
-    column-gap: 12px;
   }
 }
 
 @media (max-width: 580px) {
   ul {
     -moz-column-count: 2;
-    -moz-column-gap: 10px;
     -webkit-column-count: 2;
-    -webkit-column-gap: 10px;
     column-count: 2;
-    column-gap: 10px;
   }
 }
